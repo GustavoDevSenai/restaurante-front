@@ -62,7 +62,7 @@ export default function Login(){
             </div>
 
             <button
-            onClick={entrar}
+            onClick={entrar} 
             className="w-full rounded-lg bg-blue-600 
             py-3 mt-6 font-semibold text-white hover:bg-blue-800 cursor-pointer"
             >
