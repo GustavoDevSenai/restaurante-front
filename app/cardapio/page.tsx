@@ -1,6 +1,7 @@
 
 "use client"
 
+import Navbar from "@/components/Navbar"
 import Image from "next/image"
 import { useEffect, useState } from "react"
 
@@ -40,6 +41,8 @@ export default function CardapioPage() {
 
   return (
     <main className="p-8">
+
+      <Navbar />
       <h1 className="mb-6 text-3xl font-bold">
         Cardápio
       </h1>

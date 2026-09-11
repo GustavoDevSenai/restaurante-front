@@ -1,11 +1,13 @@
 "use client"
 
+import Login from "./login/page"
+
 
 
 export default function Home() {
   return(
     <div>
-      Pagina principal
+      <Login />
     </div>
   )
 }
