@@ -21,7 +21,7 @@ export default function CardapioAdmin() {
     async function carregarProdutos() {
         try {
             const response = await fetch(
-                `${process.env.API_URL}/admin/cardapio/produtos`
+                `${process.env.API_URL}/cardapio/produtos`
             )
 
             if (!response.ok) {
