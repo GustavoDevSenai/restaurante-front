@@ -42,7 +42,7 @@ export default function CardapioPage() {
   return (
     <main className="p-8">
 
-      <Navbar />
+     
       <h1 className="mb-6 text-3xl font-bold">
         Cardápio
       </h1>
