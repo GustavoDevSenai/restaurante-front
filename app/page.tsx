@@ -52,7 +52,7 @@ export default function Home() {
           <div className="flex gap-4 mt-8">
 
             <Link
-              href="/admin/cardapio"
+              href="/cardapio"
               className="bg-orange-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-orange-700"
             >
               Ver Cardápio
